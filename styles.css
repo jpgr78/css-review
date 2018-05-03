@@ -1,0 +1,17 @@
+html {
+    background-image: url("https://i.imgur.com/TkYbJsx.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+
+  body {
+      background: none;
+  }
+  #calculate-button {
+    position: relative;
+    top: 50%
+    
+  }
