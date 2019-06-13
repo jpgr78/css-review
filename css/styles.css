@@ -1,0 +1,15 @@
+body{
+background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.user-info{
+  float: left;
+  margin-left: 8%;
+  position: fixed
+}
+.user-output{
+  border: 10%;
+  position: relative;
+  margin-left: 8%;
+}
