@@ -1,18 +1,36 @@
 {
-    "name": "project-js-astro-weight",
-    "version": "0.1.0",
-    "scripts": {
-        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-        "test": "mocha test"
-    },
-    "dependencies": {
-        "axios": "^0.16.2",
-        "chai": "^4.0.2",
-        "express": "^4.15.3",
-        "mocha": "^3.2.0",
-        "nightmare": "^2.10.0",
-        "node-static": "^0.7.9",
-        "electron": "1.8.3"
-    },
-    "devDependencies": {}
+  "name": "project-js-astro-weight",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.0.2",
+    "cryptiles": "^4.1.2",
+    "debug": "^2.6.9",
+    "electron": "^1.8.8",
+    "express": "^4.17.1",
+    "lodash": "^4.17.11",
+    "mocha": "^3.2.0",
+    "nightmare": "^2.10.0",
+    "node-static": "^0.7.9"
+  },
+  "devDependencies": {},
+  "description": "Consider a scenario where you've been hired by NASA to build an internal tool. Their engineers would like a way to calculate the weight of their various instruments on different planets in our solar system.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yahshemi/startnow-web101-astro-weight-calculator.git"
+  },
+  "author": "Yahshemi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator/issues"
+  },
+  "homepage": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator#readme"
 }
