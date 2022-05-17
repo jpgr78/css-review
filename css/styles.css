@@ -1,1 +1,15 @@
 /* Add your CSS here */
+
+body{
+    background-image: url("../images/star.jpg");
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#main{margin-left: 40%;
+    margin-top: 15%;}
+
+
+#main h1{color:gold;
+    font-family: 'Faster One', cursive;
+}
