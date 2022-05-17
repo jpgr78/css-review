@@ -1,36 +1,44 @@
 {
-  "name": "project-js-astro-weight",
-  "version": "0.1.0",
-  "scripts": {
-    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-    "test": "mocha test"
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "chai": "^4.0.2",
-    "cryptiles": "^4.1.2",
-    "debug": "^2.6.9",
-    "electron": "^1.8.8",
-    "express": "^4.17.1",
-    "lodash": "^4.17.11",
-    "mocha": "^3.2.0",
-    "nightmare": "^2.10.0",
-    "node-static": "^0.7.9"
-  },
-  "devDependencies": {},
-  "description": "Consider a scenario where you've been hired by NASA to build an internal tool. Their engineers would like a way to calculate the weight of their various instruments on different planets in our solar system.",
-  "main": "main.js",
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yahshemi/startnow-web101-astro-weight-calculator.git"
-  },
-  "author": "Yahshemi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator/issues"
-  },
-  "homepage": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator#readme"
+    "name": "project-js-astro-weight",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+        "test": "mocha test",
+        "wdio": "wdio run wdio.conf.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "chai": "^4.0.2",
+        "cryptiles": "^4.1.2",
+        "debug": "^2.6.9",
+        "electron": "^1.8.8",
+        "express": "^4.17.1",
+        "lodash": "^4.17.11",
+        "mocha": "^3.2.0",
+        "nightmare": "^2.10.0",
+        "node-static": "^0.7.9"
+    },
+    "description": "Consider a scenario where you've been hired by NASA to build an internal tool. Their engineers would like a way to calculate the weight of their various instruments on different planets in our solar system.",
+    "main": "main.js",
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yahshemi/startnow-web101-astro-weight-calculator.git"
+    },
+    "author": "Yahshemi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator/issues"
+    },
+    "homepage": "https://github.com/Yahshemi/startnow-web101-astro-weight-calculator#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.19.7",
+        "@wdio/local-runner": "^7.19.7",
+        "@wdio/mocha-framework": "^7.19.7",
+        "@wdio/spec-reporter": "^7.19.7",
+        "chromedriver": "^101.0.0",
+        "wdio-chromedriver-service": "^7.3.2"
+    }
 }
